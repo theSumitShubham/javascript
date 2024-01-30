@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="div1" id="initialText" >
+            <h1 id="heading">Please Enter your Date of Birth</h1>
+        </div>
+
+        <div id="afterDobButton" class="div1">
+            <div class="center">
+                <h3 id="heading" class="sechead">How many years have you lived</h3>
+                <div class="time-container">
+                    <h2>
+                        <span id="years">0</span>years
+                    </h2>
+                    <h2>
+                        <span id="months">0</span>months
+                    </h2>
+                    <h2>
+                        <span id="days">0</span>days
+                    </h2>
+                    <h2>
+                        <span id="hours">0</span>hours
+                    </h2>
+                    <h2>
+                        <span id="minutes">0</span>minutes
+                    </h2>
+                    <h2>
+                        <span id="seconds">0</span>seconds
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="div2">
+            <span class="setting" id="dobSetting"><ion-icon name="cog-outline"></ion-icon></span>
+            <div class="setting-content hide">
+                <input type="date" name="date" id="dobInput">
+                <button id="dobButton">Add DoB</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
